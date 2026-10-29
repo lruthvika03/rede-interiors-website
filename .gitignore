@@ -1,0 +1,34 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+src_backup/
+*.backup
+src/**/*.backup
+src/*.before-*
+src/*.backup
+
+# Ignore all backup files
+*.backup
+*.backup-*
+*.before-*
