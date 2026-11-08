@@ -32,3 +32,4 @@ src/*.backup
 *.backup
 *.backup-*
 *.before-*
+src/*-backup
